@@ -18,9 +18,9 @@ pipeline{
                 echo "Testing..."
             }
         }
-        stage("Deploy"){
+        stage("Complete"){
             steps{
-                echo "Deploying..."
+                echo "Completed."
             }
         }
     }
